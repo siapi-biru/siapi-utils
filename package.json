@@ -1,0 +1,29 @@
+{
+  "name": "siapi-utils",
+  "version": "3.6.5",
+  "description": "Shared utilities for the Siapi packages",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "@sindresorhus/slugify": "1.1.0",
+    "date-fns": "^2.19.0",
+    "lodash": "4.17.21",
+    "pino": "^4.7.1",
+    "pluralize": "^8.0.0",
+    "yup": "^0.32.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siapi-biru/siapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siapi-biru/siapi/issues"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "6f7e0c27e72aacd2824471f7d931d850f36524c6"
+}
